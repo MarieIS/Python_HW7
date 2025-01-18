@@ -5,5 +5,4 @@ def can_be_poly(row: str) -> bool:
     odd_count = len(list(filter(lambda x: x % 2, char_counts.values())))
     return odd_count < 2
 
-
 print(can_be_poly(input('Введите ваше слово: ')))
